@@ -40,7 +40,7 @@
   },
   "include": [
     "./src",
-    "globals .d.ts"
+    "globals.d.ts"
   ],
   "exclude": [
     "node_modules",
