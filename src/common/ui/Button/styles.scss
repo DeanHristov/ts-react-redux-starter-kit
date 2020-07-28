@@ -1,0 +1,35 @@
+.btn{
+
+  border: none;
+  color: #fff;
+  padding: 1.5rem 3.2rem;
+  text-align: center;
+  transition-duration: 0.4s;
+  margin: 1.5rem 0;
+  text-decoration: none;
+  font-size: 1.6rem;
+  cursor: pointer;
+  outline: none;
+  transition: .5s all;
+
+  &:active{
+    transform: scale(.86);
+  }
+
+  &.green{
+    background-color: #4CAF50;
+  }
+  &.red{
+    background-color: #f44336;
+  }
+  &.blue{
+    background-color: #008CBA;
+  }
+  &.grey{
+    background-color: #e7e7e7;
+    color: black;
+  }
+  &.black{
+    background-color: #555555;
+  }
+}

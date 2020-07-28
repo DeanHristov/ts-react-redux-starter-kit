@@ -1,0 +1,49 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-eslint-rules"
+  ],
+  "rules": {
+    "trailing-comma": [
+      true,
+      {
+        "multiline": "never",
+        "singleline": "never"
+      }
+    ],
+    "ordered-imports": false,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore",
+      "allow-pascal-case"
+    ],
+    "max-line-length": [
+      true,
+      {
+        "limit": 120
+      }
+    ],
+    "max-classes-per-file": [
+      true,
+      1
+    ],
+    "no-restricted-globals": false,
+    "member-ordering": false,
+    "no-empty": false,
+    "space-within-parens": true,
+    "interface-name": [true, "always-prefix"],
+    "no-empty-interface": false,
+    "no-namespace": false,
+    "no-console": false,
+    "no-bitwise": false,
+    "object-literal-sort-keys": false,
+    "prefer-for-of": true,
+    "no-conditional-assignment": false,
+    "object-curly-spacing": false,
+    "array-bracket-spacing": true
+  },
+  "rulesDirectory": []
+}

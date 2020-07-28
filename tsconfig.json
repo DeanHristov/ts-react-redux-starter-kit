@@ -1,0 +1,51 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "target": "es5",
+    "lib": [
+      "es6",
+      "dom"
+    ],
+    "sourceMap": true,
+    "allowJs": false,
+    "jsx": "react",
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "removeComments": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "noEmit": false,
+    "esModuleInterop": true,
+    "paths": {
+      "@assets/*"     : ["./assets/*"],
+      "@core/*"     : ["./core/*"],
+      "@styles/*"     : ["./styles/*"],
+      "@constants/*"  : ["./constants/*"],
+      "@locales/*"    : ["./locales/*"],
+      "@common/*" : ["./common/*", "./common/**"],
+      "@ui/*"         : ["./common/ui/*"],
+      "@containers/*" : ["./common/containers/*"],
+      "@routes/*" : ["./routes/*"],
+      "@store/*"      : ["./store/*"]
+    }
+  },
+  "include": [
+    "./src",
+    "globals .d.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "build",
+    "dist",
+    "tests"
+  ]
+}
