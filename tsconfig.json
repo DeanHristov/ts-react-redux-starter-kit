@@ -31,7 +31,7 @@
       "@styles/*"     : ["./styles/*"],
       "@constants/*"  : ["./constants/*"],
       "@locales/*"    : ["./locales/*"],
-      "@common/*" : ["./common/*", "./common/**"],
+      "@common/*" : ["./common/*"],
       "@ui/*"         : ["./common/ui/*"],
       "@containers/*" : ["./common/containers/*"],
       "@routes/*" : ["./routes/*"],
@@ -40,7 +40,8 @@
   },
   "include": [
     "./src",
-    "globals.d.ts"
+    "globals.d.ts",
+    "index.d.ts"
   ],
   "exclude": [
     "node_modules",
