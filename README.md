@@ -47,8 +47,8 @@ While developing, you will probably rely mostly on `yarn start`; however, there 
 
 ## Project Structure
 
-The project structure presented in this boilerplate is **fractal**, where functionality is grouped primarily by feature rather than the file type.
-This structure is only meant to serve as a guide, it is by no means prescriptive. If you wish to read more about this pattern, please check out this [Fractal Project Structure](https://github.com/davezuko/react-redux-starter-kit/wiki/Fractal-Project-Structure).
+The project structure presented in this boilerplate is **flatten**, where functionality is grouped primarily by feature rather than the file type.
+This structure is only meant to serve as a guide, it is by no means prescriptive. If you wish to read more about this structure, please continue to read the structure below.
 
 ```
 
